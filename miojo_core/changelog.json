@@ -1,0 +1,10 @@
+{
+  "versions": [
+    {
+      "version": "2.2.1",
+      "notes": [
+        "Ajustado o nome do script, para manter compatibilidade."
+      ]
+    }
+  ]
+}
