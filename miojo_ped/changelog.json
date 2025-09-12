@@ -1,0 +1,10 @@
+{
+  "versions": [
+    {
+      "version": "2.1.1",
+      "notes": [
+        "Ajustado para utilizar o miojo_core com nome correto."
+      ]
+    }
+  ]
+}
