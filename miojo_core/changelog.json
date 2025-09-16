@@ -1,9 +1,9 @@
 {
   "versions": [
     {
-      "version": "2.2.1",
+      "version": "2.3.0",
       "notes": [
-        "Ajustado o nome do script, para manter compatibilidade."
+        "Adicionado novas funções necessárias para funcionar com os demais scripts."
       ]
     }
   ]

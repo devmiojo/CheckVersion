@@ -1,0 +1,16 @@
+{
+  "versions": [
+    {
+      "version": "8.0.0",
+      "notes": [
+        "Refeito todo server-side para utilizar miojo_core, para melhorar otimizaçôes e organização do sistema.",
+        "Adicionado nova config para adicionar slots quando ativar VIP",
+        "Adicionado nova config para remover slots/pesos quando expirar/alterar de VIP",
+        "Atualizado novo menu ( ox_lib ) para adicionar VIP",
+        "Adicionado novo comando /removeVip para remover VIP de um jogador quando ele logar novamente",
+        "Reescrito os tipos de moedas, devem utilizar ('cash' ou 'gold') para definir o tipo de moeda",
+        "Centralizado todas as traduçoes em um único arquivo ( translate.lua )"
+      ]
+    }
+  ]
+}
