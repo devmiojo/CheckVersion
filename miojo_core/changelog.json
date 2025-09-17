@@ -1,15 +1,15 @@
 {
   "versions": [
     {
-      "version": "2.3.0",
-      "notes": [
-        "Adicionado novas funções necessárias para funcionar com os demais scripts."
-      ]
-    },
-    {
       "version": "2.3.1",
       "notes": [
         "Corrigido bug de não entregar armas na framework VORP."
+      ]
+    },
+    {
+      "version": "2.3.0",
+      "notes": [
+        "Adicionado novas funções necessárias para funcionar com os demais scripts."
       ]
     }
   ]
