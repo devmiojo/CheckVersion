@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "2.4.0",
+      "notes": [
+        "Adicionado suporte a dinheiro sujo para integração com novos scripts."
+      ]
+    },
+    {
       "version": "2.3.1",
       "notes": [
         "Corrigido bug de não entregar armas na framework VORP."
