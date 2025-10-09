@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "2.2.2",
+      "notes": [
+        "Corrigido erro ao setar ped, não era possivel setar novamente."
+      ]
+    },
+    {
       "version": "2.2.1",
       "notes": [
         "Ajustado para utilizar o miojo_core com nome correto."
