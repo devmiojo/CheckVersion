@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "2.5.1",
+      "notes": [
+        "Corrigido o bug de buscar personagens na VORP."
+      ]
+    },
+    {
       "version": "2.5.0",
       "notes": [
         "Corrigido o bug para alguns jogadores com PED ficarem em loading infinito na VORP."
