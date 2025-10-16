@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "8.1.0",
+      "notes": [
+        "Adicionado nova config para diferenciar as logs de webhook de quem recebe salario das demais, basta adicionar no config.lua: Config.DiscordWebhookSalary = ''"
+      ]
+    },
+    {
       "version": "8.0.0",
       "notes": [
         "Refeito todo server-side para utilizar miojo_core, para melhorar otimizaçôes e organização do sistema.",
