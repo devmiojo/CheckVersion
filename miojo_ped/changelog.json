@@ -1,6 +1,13 @@
 {
   "versions": [
     {
+      "version": "2.2.3",
+      "notes": [
+        "Ajustado para o tamanho do ped funcionar na pré-visualização.",
+        "Corrigido o bug de não conseguir setar novamente o ped."
+      ]
+    },
+    {
       "version": "2.2.2",
       "notes": [
         "Corrigido erro ao setar ped, não era possivel setar novamente."
