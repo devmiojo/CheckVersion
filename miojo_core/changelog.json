@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "2.5.2",
+      "notes": [
+        "Adicionado um timer configuravel para carregar os personagens na VORP."
+      ]
+    },
+    {
       "version": "2.5.1",
       "notes": [
         "Corrigido o bug de buscar personagens na VORP."
