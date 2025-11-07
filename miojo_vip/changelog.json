@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "8.1.2",
+      "notes": [
+        "Corrigido problema ao entregar currency para o jogador"
+      ]
+    },
+    {
       "version": "8.1.1",
       "notes": [
         "Corrigido problema ao ativar VIP que não reconhecia o jogador"
