@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "1.0.4",
+      "notes": [
+        "Corrigido a venda de items para a loja novamente."
+      ]
+    },
+    {
       "version": "1.0.3",
       "notes": [
         "Corrigido venda de items para loja."
