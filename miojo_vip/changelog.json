@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "8.1.3",
+      "notes": [
+        "Corrigido problema ao ativar o VIP e não pagar o valor em ouro"
+      ]
+    },
+    {
       "version": "8.1.2",
       "notes": [
         "Corrigido problema ao entregar currency para o jogador"
