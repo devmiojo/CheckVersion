@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "1.1.0",
+      "notes": [
+        "Adicionar suporte para quando estiver com ped animal e morrer voltar com o ped."
+      ]
+    },
+    {
       "version": "1.0.0",
       "notes": [
         "Reformulado script para utilizar miojo_core."
