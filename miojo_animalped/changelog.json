@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "1.1.1",
+      "notes": [
+        "Adicionar config Config.ReloadCharacterCommand para colocar qual o comando de recarregar personagem."
+      ]
+    },
+    {
       "version": "1.1.0",
       "notes": [
         "Adicionar suporte para quando estiver com ped animal e morrer voltar com o ped."
