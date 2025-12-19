@@ -1,6 +1,12 @@
 {
   "versions": [
-      {
+    {
+      "version": "8.2.1",
+      "notes": [
+        "Corrigido entrega de vip para jogadores que estão offline no momento da compra na RSG"
+      ]
+    },
+    {
       "version": "8.2.0",
       "notes": [
         "Adicionado funcionalidade para entregar outros tipos de dados automaticamente, ex: balão, pets, casas... ( consultar guia-de-uso para mais informações sobre customData )"
