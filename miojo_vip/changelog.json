@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "8.3.0",
+      "notes": [
+        "Adicionado nova configuração para definir o nome da pasta da centralcart no integrations.lua"
+      ]
+    },
+    {
       "version": "8.2.1",
       "notes": [
         "Corrigido entrega de vip para jogadores que estão offline no momento da compra na RSG"
