@@ -1,5 +1,13 @@
 {
   "versions": [
+      {
+      "version": "2.3.0",
+      "notes": [
+        "Ajustado para restaurar vida atual do jogador quando setar/recarregar ped.",
+        "Adicionado comando para setar ped manualmente.",
+        "Adicionado validação para validar existência do jogador ao setar ped."
+      ]
+    },
     {
       "version": "2.2.3",
       "notes": [
