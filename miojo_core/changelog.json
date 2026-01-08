@@ -1,5 +1,11 @@
 {
   "versions": [
+      {
+      "version": "2.7.0",
+      "notes": [
+        "Adicionado um timer para validar o ped carregado na rsg."
+      ]
+    },
     {
       "version": "2.6.0",
       "notes": [
