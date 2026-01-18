@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "8.3.1",
+      "notes": [
+        "Corrigido remover vip via comando /removeVip que não estava funcionando corretamente"
+      ]
+    },
+    {
       "version": "8.3.0",
       "notes": [
         "Adicionado nova configuração para definir o nome da pasta da centralcart no integrations.lua"
