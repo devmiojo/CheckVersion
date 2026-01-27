@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "8.3.2",
+      "notes": [
+        "Corrigido evento de adicionar item individual para o cliente"
+      ]
+    },
+    {
       "version": "8.3.1",
       "notes": [
         "Corrigido remover vip via comando /removeVip que não estava funcionando corretamente"
