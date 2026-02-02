@@ -1,0 +1,10 @@
+{
+  "versions": [
+    {
+      "version": "1.0.0",
+      "notes": [
+        "Corrigido pocao de fireRegion e fogo no vampiro não funcionarem."
+      ]
+    }
+  ]
+}
