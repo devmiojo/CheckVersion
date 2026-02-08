@@ -1,6 +1,12 @@
 {
   "versions": [
-      {
+    {
+      "version": "2.8.0",
+      "notes": [
+        "Adicionado um novo export para buscar o framework."
+      ]
+    },
+    {
       "version": "2.7.0",
       "notes": [
         "Adicionado um timer para validar o ped carregado na rsg."
