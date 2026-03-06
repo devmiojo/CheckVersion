@@ -1,5 +1,11 @@
 {
   "versions": [
+      {
+      "version": "8.4.0",
+      "notes": [
+        "Ajustado para o nome do item ser enviado em lowercase"
+      ]
+    },
     {
       "version": "8.3.2",
       "notes": [
