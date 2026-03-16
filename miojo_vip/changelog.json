@@ -1,6 +1,12 @@
 {
   "versions": [
-      {
+    {
+      "version": "8.5.0",
+      "notes": [
+        "Ajustado alguns envios de items de eventos"
+      ]
+    },
+    {
       "version": "8.4.0",
       "notes": [
         "Ajustado para o nome do item ser enviado em lowercase"
