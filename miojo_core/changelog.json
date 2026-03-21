@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "2.9.0",
+      "notes": [
+        "Ajustado compatibilidade com o vorp_inventory."
+      ]
+    },
+    {
       "version": "2.8.0",
       "notes": [
         "Adicionado um novo export para buscar o framework."
