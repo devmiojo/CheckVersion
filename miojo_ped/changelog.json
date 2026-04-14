@@ -1,6 +1,12 @@
 {
   "versions": [
-      {
+    {
+      "version": "3.0.0",
+      "notes": [
+        "Adicionado suporte para multi tradução na nui.",
+      ]
+    },
+    {
       "version": "2.3.0",
       "notes": [
         "Ajustado para restaurar vida atual do jogador quando setar/recarregar ped.",
