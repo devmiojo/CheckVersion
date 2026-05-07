@@ -1,6 +1,13 @@
 {
   "versions": [
     {
+      "version": "2.2.0",
+      "notes": [
+        "Corrigido para o nome dos drawable, albedo e normals vir tudo em letra minúscula.",
+        "Corrigido para quando mexer nos tint, não alterar os valores da palette."
+      ]
+    },
+    {
       "version": "2.1.0",
       "notes": [
         "Corrigido palettas e normals fora do padrão.",
