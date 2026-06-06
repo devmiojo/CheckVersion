@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "1.3.0",
+      "notes": [
+        "Adicionado opção de multi rank"
+      ]
+    },
+    {
       "version": "1.2.0",
       "notes": [
         "Adicionar ajuste de camera"
