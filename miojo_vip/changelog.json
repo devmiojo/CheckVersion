@@ -1,6 +1,17 @@
 {
   "versions": [
     {
+      "version": "8.6.0",
+      "notes": [
+        "Adicionados os comandos /setCavalo e /setCarroca para entregar cavalo ou carroça a um jogador sem precisar setar VIP",
+        "Corrigido bug que trocava identifier e citizenid ao entregar cavalo junto do VIP",
+        "Corrigida validação que nunca disparava ao adicionar cavalo, carroça ou item para jogador offline com CharID inválido",
+        "Corrigido erro ao adicionar moeda para jogador offline inexistente",
+        "Corrigida compatibilidade com VORP ao entregar itens, armas, moeda e VIP offline",
+        "Adicionada validação de jogador ao setar VIP, cavalo ou carroça para evitar erros com ID inválido ou offline"
+      ]
+    },
+    {
       "version": "8.5.0",
       "notes": [
         "Ajustado alguns envios de items de eventos"

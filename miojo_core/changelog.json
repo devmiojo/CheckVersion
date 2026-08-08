@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "version": "2.10.0",
+      "notes": [
+        "Adicionado getOnlineSources() para listar jogadores online de forma unificada entre RSG e VORP",
+        "Adicionado getSourceByCitizenId() para buscar o source do jogador pelo citizenid de forma unificada entre RSG e VORP",
+        "Corrigida inconsistência na estrutura retornada por getUsers() e getPlayerByCitizenId() entre RSG e VORP"
+      ]
+    },
+    {
       "version": "2.9.0",
       "notes": [
         "Ajustado compatibilidade com o vorp_inventory."
