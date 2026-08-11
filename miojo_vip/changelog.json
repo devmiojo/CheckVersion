@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "8.6.1",
+      "notes": [
+        "Corrigido pagamento do salário periódico do VIP que enviava o valor de 'valueToPay' (cash) também para o gold ao invés de usar 'paymentInGold', fazendo o jogador receber a quantidade errada de ouro. Basta atualizar apenas o arquivo server/main.lua."
+      ]
+    },
+    {
       "version": "8.6.0",
       "notes": [
         "Adicionados os comandos /setCavalo e /setCarroca para entregar cavalo ou carroça a um jogador sem precisar setar VIP",
