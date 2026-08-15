@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "version": "8.6.2",
+      "notes": [
+        "Adicionado fallback ao entregar itens: quando o item não existe no formato lowercase padrão, tenta novamente entregar com o nome original antes de desistir."
+      ]
+    },
+    {
       "version": "8.6.1",
       "notes": [
         "Corrigido pagamento do salário periódico do VIP que enviava o valor de 'valueToPay' (cash) também para o gold ao invés de usar 'paymentInGold', fazendo o jogador receber a quantidade errada de ouro. Basta atualizar apenas o arquivo server/main.lua."
