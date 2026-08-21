@@ -1,6 +1,13 @@
 {
   "versions": [
     {
+      "version": "2.3.0",
+      "notes": [
+        "Corrigido export de materiais que estava gerando sufixo errado (_ma) em vez do correto (_m).",
+        "Adicionado filtro de gênero (masculino/feminino) na busca de assets da aba Metatags."
+      ]
+    },
+    {
       "version": "2.2.0",
       "notes": [
         "Corrigido para o nome dos drawable, albedo e normals vir tudo em letra minúscula.",
