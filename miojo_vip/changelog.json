@@ -1,6 +1,13 @@
 {
   "versions": [
     {
+      "version": "8.6.3",
+      "notes": [
+        "Corrigido Config.UseGroupToPerms = true que nunca concedia permissão: o grupo era lido de Character.group, mas no VORP o grupo pertence ao user e não ao character, então o valor era sempre nil. Com isso os comandos /setVip, /removerVip, /setCavalo e /setCarroca ficavam bloqueados para todos e, como nenhum VIP podia ser setado, nenhum jogador novo passava a receber o salário periódico. Agora usa a API getGroup do miojo_core. Basta atualizar apenas o arquivo server/main.lua.",
+        "Adicionados os comandos /setCavalo e /setCarroca para entregar cavalo ou carroça a um jogador sem precisar setar VIP."
+      ]
+    },
+    {
       "version": "8.6.2",
       "notes": [
         "Adicionado fallback ao entregar itens: quando o item não existe no formato lowercase padrão, tenta novamente entregar com o nome original antes de desistir."
