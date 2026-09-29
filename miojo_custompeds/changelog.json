@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "version": "2.4.0",
+      "notes": [
+        "Corrigida a roupa da loja ficando preta ao ir para primeira pessoa e voltar (a loja trocava o material original _m por uma textura _ma/_mb).",
+        "Export no formato que o CodeX lê: nomes do CodeX (ex: gCrTlMA_0xDFB1F64C) mantêm maiúsculas/minúsculas e hash sem nome sai no formato do CodeX, evitando peças pretas ou sumidas.",
+        "Paleta não é mais inventada: peça sem paleta sai com <palette /> e a lista mostra as 29 paletas do jogo com o nome real.",
+        "Novo botão \"Corrigir XML\" e avisos de validação (albedo de máscara sem paleta, material de outra peça, material _ma/_mb).",
+        "Novo botão \"Exportar Outfit Completo\" (blocos explicitAssets + expressions) e importação que entra no \"Exportar Ped Atual\".",
+        "Nova aba Aparência: tom de pele (cabeça, tronco e pernas do mesmo tom, sem divisória no pescoço), olhos, dentes e tipo de corpo, com o XML gerado na hora.",
+        "Posição do chapéu (X, Y, Z, Yaw, Roll, Pitch) na loja e na Modelagem, com limite de ±2, igual ao Hat Studio.",
+        "Loja: material editável com sugestões, seletor de variantes e seletor de modelo (chapéus _alt e cabelos _bonnet, _tuck, _pomade).",
+        "Modelagem: botão Resetar Modelagem, área Avançado para testar qualquer expressão e novas expressões de corpo.",
+        "Aba Peds: botões para trocar outfit e cabelo com um clique (e setas do teclado), com contador de outfits; o outfit 0 agora é o primeiro outfit do modelo.",
+        "Dropdowns redesenhados: o dropdown do jogo deixava lixo na tela ao fechar sem escolher."
+      ]
+    },
+    {
       "version": "2.3.0",
       "notes": [
         "Corrigido export de materiais que estava gerando sufixo errado (_ma) em vez do correto (_m).",
