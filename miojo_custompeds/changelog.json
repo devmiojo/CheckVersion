@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "version": "2.5.0",
+      "notes": [
+        "Nova aba Maquiagem: coloque base, sombra, delineador, batom, blush e pintura facial no ped, escolhendo o estilo, a cor e a intensidade de cada um.",
+        "Na mesma aba, em \"Pele e rosto\": sobrancelhas, sardas, pintas, manchas, cicatrizes, envelhecimento, acne, barba rala, cabelo raspado e sujeira.",
+        "A maquiagem aparece no ped na hora, e o código dela é gerado sozinho para copiar ou mandar para a aba Importar.",
+        "A maquiagem continua no ped quando você troca de outfit e é limpa quando você troca de ped.",
+        "Corrigido: o campo Cabelo da aba Peds agora troca só o cabelo e a barba, sem mudar a roupa do outfit escolhido.",
+        "Corrigido: na Modelagem e na posição do chapéu, deixar o ajuste exatamente em 1, -1 ou 2 não fazia efeito nenhum.",
+        "Corrigido: listas de opções com nomes grandes (ex: Modelo da peça na Loja) abriam para fora da tela; agora abrem para a esquerda.",
+        "Corrigido: pesquisar na Loja ou em Metatags sem nenhum filtro travava o jogo por alguns instantes; agora a busca é muito mais rápida e não trava mais."
+      ]
+    },
+    {
       "version": "2.4.0",
       "notes": [
         "Corrigida a roupa da loja ficando preta ao ir para primeira pessoa e voltar (a loja trocava o material original _m por uma textura _ma/_mb).",
