@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "version": "2.6.0",
+      "notes": [
+        "Novo Rascunho: um bloco de notas na tela do jogo para anotar e separar as partes da roupa, que fica salvo de uma sessão para a outra.",
+        "Agora dá para salvar maquiagens prontas e aplicar em qualquer outro personagem com um clique.",
+        "Na Loja, as setas do teclado trocam a peça e a cor, sem precisar clicar.",
+        "A Loja ganhou mais peças: cabelos e barbas do criador de personagem com todas as cores e as roupas do Arthur.",
+        "Todas as categorias da Loja agora têm nome em português e ficaram organizadas por grupo.",
+        "Novos botões na Loja para tirar a peça da categoria, todas as roupas, cabelo e barba ou o corpo.",
+        "O Limpar Ped não remove mais partes do corpo, como as mãos.",
+        "O Limpar Sujeiras agora limpa de verdade: sujeira, sangue, roupa molhada e roupa com aparência gasta."
+      ]
+    },
+    {
       "version": "2.5.0",
       "notes": [
         "Nova aba Maquiagem: coloque base, sombra, delineador, batom, blush e pintura facial no ped, escolhendo o estilo, a cor e a intensidade de cada um.",
