@@ -1,6 +1,13 @@
 {
   "versions": [
     {
+      "version": "2.6.1",
+      "notes": [
+        "Corrigido: as setas do Cabelo na aba Peds agora trocam só o cabelo e a barba, sem mexer na roupa.",
+        "A aba Maquiagem foi removida do script."
+      ]
+    },
+    {
       "version": "2.6.0",
       "notes": [
         "Novo Rascunho: um bloco de notas na tela do jogo para anotar e separar as partes da roupa, que fica salvo de uma sessão para a outra.",
