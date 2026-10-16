@@ -1,6 +1,25 @@
 {
   "versions": [
     {
+      "version": "2.7.0",
+      "notes": [
+        "Visual novo, com cara de programa de edição: o personagem fica no centro da tela e os painéis ficam nas laterais.",
+        "Os painéis podem ser arrastados e redimensionados, e a posição fica salva. O botão Restaurar layout volta tudo para o lugar.",
+        "Câmera no mouse: o botão esquerdo gira o personagem, o botão direito sobe e desce a câmera e a roda dá zoom.",
+        "Novo Modo foto (tecla H): esconde os painéis e deixa só o personagem na tela.",
+        "Novo botão Tempo e clima: escolha manhã, meio-dia, tardezinha, noite ou qualquer horário, trave o horário e troque entre 21 climas em português. Só quem está no menu vê, e tudo volta ao normal quando o menu fecha.",
+        "Nova aba Guarda-roupa: salve looks e vista de novo com um clique, o look inteiro ou só a roupa.",
+        "No Guarda-roupa, o Montar Ped junta vários looks e gera o XML completo do ped para o CodeX.",
+        "Nova aba Leitura: mostra peça por peça o que o seu personagem está vestindo e copia o XML completo, só as peças ou os overlays do rosto.",
+        "A Loja ganhou quase 8 mil peças novas, incluindo roupas e acessórios de NPCs.",
+        "Ao escolher uma cabeça na Loja, os olhos, os dentes e as sobrancelhas daquela cabeça vêm junto (dá para desligar).",
+        "Novos Materiais prontos na Loja e em Metatags, para trocar o acabamento da peça com um clique.",
+        "Os botões de exportar repetidos foram removidos: agora as exportações ficam todas na aba Leitura.",
+        "Corrigido: a busca de Metatags escondia as máscaras, as crinas de cavalo e algumas peças de NPCs.",
+        "Para donos de servidor: nova opção Config.TimeWeather no config.lua. A opção Config.EnableClothingExport não é mais usada e pode ser apagada."
+      ]
+    },
+    {
       "version": "2.6.1",
       "notes": [
         "Corrigido: as setas do Cabelo na aba Peds agora trocam só o cabelo e a barba, sem mexer na roupa.",
