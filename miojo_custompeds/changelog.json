@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "version": "2.7.1",
+      "notes": [
+        "A aba Importar agora reconhece a modelagem do rosto: cole os <Item> com id e value (ou o outfit completo do CodeX) e o rosto é aplicado junto com as roupas.",
+        "Novas Modelagens salvas na aba Modelagem: dê um nome, salve o rosto atual e aplique de novo em qualquer personagem com um clique.",
+        "O botão Enviar p/ Importar da aba Leitura agora leva a modelagem junto com as peças."
+      ]
+    },
+    {
       "version": "2.7.0",
       "notes": [
         "Visual novo, com cara de programa de edição: o personagem fica no centro da tela e os painéis ficam nas laterais.",
