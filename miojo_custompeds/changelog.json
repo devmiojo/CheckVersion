@@ -1,6 +1,15 @@
 {
   "versions": [
     {
+      "version": "2.7.2",
+      "notes": [
+        "Duas peças da mesma categoria no mesmo outfit (ex: 2 torsos para fechar o pescoço) agora vão juntas para o XML do CodeX. No jogo aparece só uma por vez, mas a outra não se perde mais.",
+        "A caixa do Importar e o Rascunho não quebram mais a linha no meio do código, e as janelas ficaram mais fáceis de alargar: é só arrastar a borda.",
+        "Agora dá para favoritar animações e achar todas no filtro Favoritas.",
+        "Corrigido: o Limpar Sujeiras limpava, mas logo depois o personagem voltava a ficar sujo."
+      ]
+    },
+    {
       "version": "2.7.1",
       "notes": [
         "A aba Importar agora reconhece a modelagem do rosto: cole os <Item> com id e value (ou o outfit completo do CodeX) e o rosto é aplicado junto com as roupas.",
