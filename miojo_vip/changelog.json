@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "version": "8.6.4",
+      "notes": [
+        "Correção de segurança: os eventos internos de entrega (addItemToPlayer, addWeaponToPlayer, addCurrencyToPlayer, saveOfflineVip, receiveHorseOrWagon, receiveCustomData, sendToApiSaveVip, receive*Hydrus, setHorseInDatabase, setWagonInDatabase e setCustomDatabase) estavam registrados como eventos de rede e podiam ser disparados por menus de cheat para gerar itens, armas, dinheiro, gold, VIP e cavalos. Agora só aceitam chamadas do próprio servidor. Tebex, CentralCart, Hydrus e API continuam funcionando normalmente. Se você personalizou server/horse_database.lua, server/wagon_database.lua ou server/custom_database.lua, remova a linha RegisterServerEvent do topo deles.",
+        "Correção de segurança: /setVip, /setCavalo, /setCarroca e /removerVip só validavam a permissão no cliente. Agora o servidor confere a permissão de staff em todos eles e registra no console quem tentar usar sem permissão. O valor de dinheiro do saveVip não é mais aceito quando vem do cliente.",
+        "Correção de segurança: /ativarVip e /resgatarItens podiam entregar o bônus de ativação e os itens pendentes em dobro quando disparados várias vezes seguidas. Agora cada jogador só processa uma chamada por vez.",
+        "Correção de segurança na integração por API: o arquivo shared/config_api.lua era enviado para todos os jogadores, expondo a API.KEY, e a chave padrão vazia aceitava qualquer requisição. Agora ele é carregado só no servidor e o endpoint /save_vip só funciona com Config.IntegrationStore = 'api' e uma API.KEY de no mínimo 16 caracteres. É necessário atualizar o fxmanifest.lua.",
+        "Corrigido addItemsMiojo, addWeaponMiojo e os demais comandos da loja que não entregavam nada quando havia espaço entre os parâmetros (ex.: charid={citizenid} ,spawnName=item), gerando o erro \"bad argument #1 to 'sub'\" no miojo_core. Espaços e nomes de cavalo com espaço agora são aceitos.",
+        "Corrigido o salário periódico que, ao setar o VIP pelo /setVip, era iniciado para o staff em vez do jogador que recebeu o VIP.",
+        "Removido o aviso falso \"nao encontrado no formato lowercase\" ao entregar armas na VORP.",
+        "Arquivos alterados: fxmanifest.lua, server/main.lua, server/api.lua, server/horse_database.lua, server/wagon_database.lua e server/custom_database.lua."
+      ]
+    },
+    {
       "version": "8.6.3",
       "notes": [
         "Corrigido Config.UseGroupToPerms = true que nunca concedia permissão: o grupo era lido de Character.group, mas no VORP o grupo pertence ao user e não ao character, então o valor era sempre nil. Com isso os comandos /setVip, /removerVip, /setCavalo e /setCarroca ficavam bloqueados para todos e, como nenhum VIP podia ser setado, nenhum jogador novo passava a receber o salário periódico. Agora usa a API getGroup do miojo_core. Basta atualizar apenas o arquivo server/main.lua.",
