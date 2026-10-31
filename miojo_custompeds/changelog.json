@@ -1,6 +1,21 @@
 {
   "versions": [
     {
+      "version": "2.8.0",
+      "notes": [
+        "Corrigido: quem está com um ped customizado não fica mais sujo com o tempo. O script confere a cada poucos segundos e limpa a sujeira sozinho (sangue e ferimentos continuam aparecendo).",
+        "O botão Limpar Sujeiras ficou mais forte e limpa melhor o corpo e a roupa.",
+        "Corrigido: a lista da Loja parava em 220 peças mesmo quando a categoria tinha mais. Agora aparecem todas: role até o fim ou clique em Carregar mais. O contador mostra quantas já carregaram (ex: 200 / 686).",
+        "Novo: compartilhar looks do Guarda-roupa com outro jogador online. Ele recebe uma cópia no guarda-roupa dele e os seus continuam com você.",
+        "Novo: campo Albedo na Loja, com as outras cores da mesma peça. O botão Original volta ao que era.",
+        "Cada ajuste da Modelagem agora mostra o código que vai no XML. Clique nele para copiar e achar fácil no CodeX.",
+        "Novo ajuste de anel (em teste) nas categorias de anel, parecido com o do chapéu. Os nomes dos ajustes ainda podem mudar.",
+        "Atalhos da câmera no teclado: W/S sobe e desce, A/D gira o personagem, Q/Z ou R/F aproxima e afasta. Segure para continuar movendo.",
+        "Novo botão Fixar em cada janela: fixada, ela continua na mesma aba mesmo trocando de aba no topo, até você soltar.",
+        "Config novo: Config.KeepPedClean (limpeza automática), Config.WardrobeShare (compartilhar looks) e Config.RingCategories. Arquivo novo server/sv_guardaroupa.lua: atualize a pasta inteira."
+      ]
+    },
+    {
       "version": "2.7.2",
       "notes": [
         "Duas peças da mesma categoria no mesmo outfit (ex: 2 torsos para fechar o pescoço) agora vão juntas para o XML do CodeX. No jogo aparece só uma por vez, mas a outra não se perde mais.",
