@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "version": "8.6.5",
+      "notes": [
+        "Correção: o salário do VIP não começava depois de setar (/setVip) ou ativar (/ativarVip) quando o jogador já tinha um salário rodando na sessão (de um VIP anterior, removido ou expirado). Só voltava a pagar depois de reiniciar o servidor. Agora o salário é reiniciado com o VIP novo ao setar/ativar e é encerrado ao remover (/removerVip) ou quando o VIP expira no login.",
+        "Carroça agora aceita parâmetros extras, igual ao cavalo: os parâmetros que começam com \"wagon\" (ex: wagonTint=2) chegam na tabela wagonOthers do evento miojo_vip:setWagonInDatabase, para você gravar colunas a mais no SQL do seu script de carroça. Funciona no addHorseOrWagonMiojo e na entrega de VIP (Tebex, Hydrus, CentralCart e API).",
+        "Se você personalizou server/wagon_database.lua, adicione o 5º parâmetro wagonOthers na função do evento para usar os extras. O arquivo novo traz um exemplo comentado de como gravar um 3º campo."
+      ]
+    },
+    {
       "version": "8.6.4",
       "notes": [
         "Correção de segurança: os eventos internos de entrega (addItemToPlayer, addWeaponToPlayer, addCurrencyToPlayer, saveOfflineVip, receiveHorseOrWagon, receiveCustomData, sendToApiSaveVip, receive*Hydrus, setHorseInDatabase, setWagonInDatabase e setCustomDatabase) estavam registrados como eventos de rede e podiam ser disparados por menus de cheat para gerar itens, armas, dinheiro, gold, VIP e cavalos. Agora só aceitam chamadas do próprio servidor. Tebex, CentralCart, Hydrus e API continuam funcionando normalmente. Se você personalizou server/horse_database.lua, server/wagon_database.lua ou server/custom_database.lua, remova a linha RegisterServerEvent do topo deles.",
