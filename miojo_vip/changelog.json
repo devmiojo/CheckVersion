@@ -1,6 +1,18 @@
 {
   "versions": [
     {
+      "version": "8.6.6",
+      "notes": [
+        "Correção (VORP): o jogador online não recebia o aviso de que o VIP comprado na loja estava disponível. Só via a mensagem depois de reconectar, o que dava a impressão de que precisava relogar para usar o /ativarVip. Agora o aviso chega na hora da entrega (Tebex, Hydrus, CentralCart e API).",
+        "O /ativarVip agora avisa \"Seu VIP já está ativo\" quando não há nada para ativar, em vez de não responder. Se você usa um shared/translate.lua próprio, pode adicionar a linha [54] para personalizar esse texto (sem ela o script usa o texto padrão).",
+        "Correção: um VIP removido com /removerVip enquanto o jogador estava offline e que ainda não tinha sido ativado continuava podendo ser ativado com o /ativarVip. Agora ele é apagado na hora.",
+        "Correção: remover (/removerVip) um VIP que ainda não tinha sido ativado tirava do jogador o peso e os slots extras que ele nunca recebeu. Agora só são removidos os benefícios do VIP que estava de fato aplicado.",
+        "Correção: com removeWeightExtra ou removeSlotsExtra = false, expirar ou remover o VIP adicionava o peso/slots extras de novo em vez de manter como estava.",
+        "Correção: ao trocar um VIP que ainda não tinha sido ativado (por /setVip ou nova compra na loja), o script removia o peso/slots extras desse VIP pendente, que nunca foram dados. Agora remove os do VIP que estava ativo.",
+        "Correção: ao expirar no login, o jogador não recebe mais o aviso de dias restantes com valor negativo junto da mensagem de VIP encerrado."
+      ]
+    },
+    {
       "version": "8.6.5",
       "notes": [
         "Correção: o salário do VIP não começava depois de setar (/setVip) ou ativar (/ativarVip) quando o jogador já tinha um salário rodando na sessão (de um VIP anterior, removido ou expirado). Só voltava a pagar depois de reiniciar o servidor. Agora o salário é reiniciado com o VIP novo ao setar/ativar e é encerrado ao remover (/removerVip) ou quando o VIP expira no login.",
