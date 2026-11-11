@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "version": "2.8.1",
+      "notes": [
+        "Corrigido: depois de trocar a paleta de uma peça na Loja, mexer na cor fazia a paleta voltar à original. Agora a paleta escolhida continua.",
+        "Corrigido: o ajuste do chapéu voltou a funcionar. Em alguns chapéus ele só mexia depois de mexer em outro eixo; agora mexe na hora, e os ajustes continuam valendo ao trocar de chapéu.",
+        "Removido o ajuste de anel (em teste), que não deu certo. Se você mexeu nele, use Resetar modelagem uma vez para zerar.",
+        "Novo: favoritos na Loja. Clique na estrela de uma peça e ache todas em Favoritos, no seletor de categoria.",
+        "Novo: botão Pose parada na aba Animações. Com uma animação tocando, o personagem congela nela; sem animação, fica em pé totalmente parado (Config.StillPose).",
+        "Corrigido: Tirar todas as roupas não tirava algumas peças, como o espartilho. O jogo guarda essas peças numa categoria sem nome; agora a peça é reconhecida pela própria roupa e sai junto (corpo, cabelo e barba continuam).",
+        "Na aba Leitura, cada peça tem um botão Copiar que copia só o <Item> dela. O antigo Copiar <Item> agora se chama Copiar todos <Item>.",
+        "Config: saiu Config.RingCategories e entrou Config.StillPose."
+      ]
+    },
+    {
       "version": "2.8.0",
       "notes": [
         "Corrigido: quem está com um ped customizado não fica mais sujo com o tempo. O script confere a cada poucos segundos e limpa a sujeira sozinho (sangue e ferimentos continuam aparecendo).",
