@@ -1,6 +1,17 @@
 {
   "versions": [
     {
+      "version": "2.9.0",
+      "notes": [
+        "Novo: aba Expressões. Lista todas as expressões conhecidas do metaped (rosto, olhos, boca, corpo, chapéu...) com busca por nome ou ID, filtro Só as alteradas, botão ↺ para desfazer uma só e Adicionar por ID. Usa os mesmos ajustes da Modelagem e o Exportar copia tudo junto.",
+        "Novo: aba Comparar. Cole um XML e clique em Colocar ao lado: aparece uma cópia do seu ped (só você vê) com aquele outfit, girando junto com o seu. A lista mostra as peças Diferentes, Só no outro, Só no meu e as expressões que mudam, com botões para copiar o <Item> de cada lado. A cópia some ao fechar o menu.",
+        "Novo: aba Andar, para testar estilos de andar no ped (base + estilo). Testar andando faz o ped afastar e voltar ou atravessar de um lado para o outro, andando, correndo ou disparando. É só teste: não vai para o XML e volta ao padrão ao fechar o menu.",
+        "Corrigido: na Loja, filtrar categorias por barba ou bigode não mostrava nada quando a Loja tinha sido aberta antes com um ped de outro gênero. A lista de categorias agora acompanha o gênero do ped atual.",
+        "A categoria beards (feminino) agora aparece em Cabelo/Barba como Barbas.",
+        "Config: entrou Config.WalkStyles (listas de base e estilo de andar, RestoreOnClose e TestDistance)."
+      ]
+    },
+    {
       "version": "2.8.1",
       "notes": [
         "Corrigido: depois de trocar a paleta de uma peça na Loja, mexer na cor fazia a paleta voltar à original. Agora a paleta escolhida continua.",
